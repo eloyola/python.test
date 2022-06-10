@@ -16,3 +16,10 @@ dato_byte = b"probando"
 print(dato_byte)
 # mostrar tipo de dato
 print(type(dato_byte))
+
+texto = "hola mundo"
+numero = 777
+# convertir datos
+numerito = float(numero)
+print(f"{texto} {numero}")
+print(numerito)
